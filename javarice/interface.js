@@ -61,5 +61,5 @@ document.getElementById("kofiBtn").addEventListener("click", () => {
 });
 
 document.getElementById("soraBtn").addEventListener("click", () => {
-          showResultText("Uhmm.. Wanna bu ice cream?");
+          showResultText("Uhmm.. Wanna buy ice cream?");
 });
