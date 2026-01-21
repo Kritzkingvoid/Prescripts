@@ -49,7 +49,7 @@ function redirect(url, newTab = true) {
 }
 
 document.getElementById("meBtn").addEventListener("click", () => {
-    redirect("https://www.youtube.com/@kritzkingvoid");
+    redirect("https://www.youtube.com/watch?v=ST5DWHnT_Po");
 });
 
 document.getElementById("gitBtn").addEventListener("click", () => {
