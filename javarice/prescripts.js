@@ -28,8 +28,8 @@ const messages = [
   { text: "HAVE A SINNER TAKE DAMAGE THIS TURN", weight: 20, minCount: 0, amounts: 3 },
 
   // UNCOMMON (mid) / NOT REALLY BAD YET
-      { text: "USE AN AOE EGO AND HAVE IT ONLY DAMAGE ONE ENEMY", weight: 10, minCount: 4, amounts: 2 },
-  { text: "APPLY ATLEAST 5 DEBUFFS ON AN ENEMY NEXT TURN", weight: 20, minCount: 3, amounts: 3 },
+  { text: "USE AN AOE EGO AND HAVE IT ONLY DAMAGE ONE ENEMY OR ONE PART", weight: 10, minCount: 4, amounts: 2 },
+  { text: "INFLICT FIVE UNIQUE DEBUFFS NEXT TURN", weight: 20, minCount: 3, amounts: 3 },
   { text: "HAVE ALL OF YOUR SINNERS USE A DEFENSE SKILL", weight: 20, minCount: 1, amounts: 5 },
   { text: "ACTIVATE A RESONANCE PASSIVE THIS TURN", weight: 10, minCount: 1, amounts: 5 },
   { text: "DEAL AN OVERALL 100 DAMAGE THIS TURN", weight: 30, minCount: 2, amounts: 5 },
@@ -38,30 +38,28 @@ const messages = [
   { text: "DONT'T KILL/STAGGER ANY ENEMIES THIS TURN", weight: 10, minCount: 2, amounts: 5 },
   { text: "REPEAT THE LAST PRESCRIPT", weight: 20, minCount: 3, amounts: 5 },
   { text: "ATTACK WITH SINNERS WITH SPEED TOTALING NO GREATER THAN 14", weight: 20, minCount: 3, amounts: 5 },
-  { text: "STAGGER OR PART_BREAK AN ENEMY THIS TURN", weight: 10, minCount: 4, amounts: 5 },
+  { text: "STAGGER, PART_BREAK, OR DEAL 500 DAMAGE TO AN ENEMY THIS TURN", weight: 10, minCount: 4, amounts: 5 },
   { text: "SINNERS WITH SPEED LOWER OR EQUAL TO 'E', USE AN EGO SKILL", weight: 20, minCount: 5, amounts: 5 },
   { text: "CHAIN ATLEAST 3 SKILL SLOTS WITH THE SAME SIN-AFFINITY", weight: 10, minCount: 5, amounts: 5 },
 
   // RARE (late) DIE ALREADY
-  { text: "GENERATE 5 UNIQUE SIN RESOURCES THIS TURN", weight: 20, minCount: 6, amounts: 3 },
+  { text: "GENERATE FOUR UNIQUE SIN RESOURCES THIS TURN", weight: 20, minCount: 6, amounts: 3 },
   { text: "CHANGE 1 SINNERS RESISTANCE TYPE TO BE FATAL WITH ONE OF THE ENEMIES SKILLS", weight: 5, minCount: 8, amounts: 3 },
   { text: "HAVE A SINNER CORRODE NEXT TURN", weight: 10, minCount: 6, amounts: 3 },
   { text: "HAVE A SINNER DIE NEXT TURN", weight: 5, minCount: 9, amounts: 3 },
   { text: "DON'T USE MORE THAN 2 SKILL_1 THIS TURN", weight: 20, minCount: 6, amounts: 3 },
-  { text: "USE AN OVERCLOCK E.G.O THIS TURN AND HAVE THAT SINNER DISTORT", weight: 5, minCount: 6, amounts: 3 },
+  { text: "USE AN OVERCLOCK E.G.O THIS TURN AND HAVE THAT SINNER CORRODE THIS OR NEXT TURN", weight: 5, minCount: 6, amounts: 3 },
   { text: "DEAL AN OVERALL 300 DAMAGE THIS TURN", weight: 30, minCount: 5, amounts: 3 },
   { text: "HAVE NO MORE THAN 200 SANITY IN-TOAL NEXT TURN", weight: 10, minCount: 7, amounts: 3 },
+  { text: "HAVE A TOTAL OF 20 STATUS EFFECT [BUFF/DEBUFFS] ON YOUR SINNERS NEXT TURN ", weight: 10, minCount: 7, amounts: 3 },
 
   // VERY RARE / MEMES
-  { text: "USE 20+ SIN RESOURCES THIS TURN", weight: 20, minCount: 8, amounts: 10 },
-  { text: "REPEAT THE LAST PRESCRIPT YOU FAILED", weight: 20, minCount: 10, amounts: 10 },
+  { text: "ACTIVATE AN EGO THAT WOULD DIRECTLY/INDIRECTLY KILL AN ALLY ", weight: 5, minCount: 8, amounts: 10 },
+  { text: "USE TEN OR MORE SIN RESOURCES THIS TURN", weight: 20, minCount: 8, amounts: 10 },
   { text: "USE AN OVERCLOCK E.G.O THIS TURN", weight: 5, minCount: 3, amounts: 10 },
-  { text: "PAT YOUR SLOWEST SINNERS ON THE HEAD FOR 3 SECOND EACH", weight: 5, minCount: 3, amounts: 10 },
-  { text: "Uhm... Can you buy me Ice Cream? ~ Sora", weight: 5, minCount: 0, amounts: 1 },
-  { text: "Buy me one of those 'Mangas' ~ Rien", weight: 5, minCount: 0, amounts: 1 },
-  { text: "Please wear this outfit for me thanks <3 ~ Moirai", weight: 30, minCount: 20, amounts: 1 },
-  { text: "Stop sending me weird prescripts ~ Yan", weight: 5, minCount: 40, amounts: 1 },
-  { text: "Charon want candy ~ Charon", weight: 1, minCount: 10,amounts: 1 },
+  { text: "PAT YOUR SLOWEST SINNERS ON THE HEAD FOR 3 SECOND EACH", weight: 5, minCount: 3, amounts: 1 },
+  { text: "Uhm... Can you buy me Ice Cream? ~ Sora", weight: 5, minCount: 50, amounts: 1 },
+  
 ];
 
 const recentMessagesSize = 5;
