@@ -63,3 +63,7 @@ document.getElementById("kofiBtn").addEventListener("click", () => {
 document.getElementById("soraBtn").addEventListener("click", () => {
           showResultText("Uhmm.. Wanna buy ice cream?");
 });
+
+document.getElementById("unitBtn").addEventListener("click", () => {
+          showResultText("In Progress ... Coming Soon! ~ Limbus Company Coding Department ");
+});
