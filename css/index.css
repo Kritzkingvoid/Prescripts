@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "code";
+  src: url("/media/fonts/PixelifySans-Regular.woff2") format("woff2"),
+       url("media/fonts/PixelifySans-Regular.woff") format("woff");
+}
+   
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f0f0f;
+    color: #99caff; 
+    font-family: "code", monospace;
+} 
+#imageHolder {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#buttonContainer {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+    
+#buttonContainer button {
+    background: none;
+    border: none;
+    color: #99edff;
+    font-family: "code", monospace;
+    font-size: 35px;
+    cursor: pointer;
+    text-shadow:
+    0 0 10px rgba(153, 237, 255, 0.8),
+    0 0 20px rgba(153, 237, 255, 0.5),
+    0 0 40px rgba(0, 183, 235, 0.3);
+}
+    
+#buttonContainer button:hover {
+    opacity: 0.7;
+}
