@@ -14,6 +14,10 @@ function showResultText(text) {
     scrambleReveal(text, 0.3, 0.8, t => display.textContent = t, showPlayButton);
 }
 
+function showResultTextIntro(text) {
+    scrambleReveal(text, 0.3, 0.8,t => display.textContent = t,);
+}
+
 function showResultButtons() {
     canResolve = false;
 
