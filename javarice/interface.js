@@ -49,7 +49,7 @@ document.getElementById("meBtn").addEventListener("click", () => {
 });
 
 document.getElementById("gitBtn").addEventListener("click", () => {
-    redirect("https://github.com/KurtVelasco");
+    redirect("https://github.com/Kritzkingvoid");
 });
 
 document.getElementById("kofiBtn").addEventListener("click", () => {

@@ -16,8 +16,8 @@ const messages = [
   // COMMON (early) //RANDOM BULLLSHITS
   { text: "HAVE ALL OF YOUR SINNERS TARGET AN ENEMY WITH THE LOWEST HEALTH", weight: 40, minCount: 0, amounts: 2 },
   { text: "SINNERS WITH THE HIGHEST SPEED, TARGET THE SLOWEST ENEMY SLOT", weight: 45, minCount: 0, amounts: 2 },
-  { text: "SINNERS WHO ROLLED EVEN-NUMBERED SPEED,CAN ONLY DEAL DAMAGE TO ODD-NUMBERED SPEED SLOTS", weight: 35, minCount: 0, amounts: 2 },
-  { text: "SINNERS WHO ROLLED ODD-NUMBERED SPEED, CANNOT DEAL DAMAGE TO EVEN-NUMBERED SPEED SLOTS", weight: 35, minCount: 0, amounts: 2 },
+  { text: "SINNERS WHO ROLLED EVEN-NUMBERED SPEED,CAN ONLY DEAL DAMAGE TO ODD-NUMBERED SLOTS", weight: 35, minCount: 0, amounts: 2 },
+  { text: "SINNERS WHO ROLLED ODD-NUMBERED SPEED,CANNOT DEAL DAMAGE TO EVEN-NUMBERED SLOTS", weight: 35, minCount: 0, amounts: 2 },
   { text: "DON'T LET A SINNER TAKE MORE THAN 20 DAMAGE THIS TURN", weight: 40, minCount: 0, amounts: 1 },
   { text: "HAVE YOUR FASTEST SINNERS CLASH WITH THE SLOWEST ENEMY SLOT", weight: 40, minCount: 0, amounts: 2 },
   { text: "HAVE ALL OF YOUR SINNERS TARGET A SINGLE SLOT", weight: 45, minCount: 0, amounts: 3 },
