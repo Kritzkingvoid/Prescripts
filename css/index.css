@@ -1,7 +1,7 @@
 @font-face {
   font-family: "code";
-  src: url("/media/fonts/PixelifySans-Regular.woff2") format("woff2"),
-       url("media/fonts/PixelifySans-Regular.woff") format("woff");
+  src: url("../media/fonts/PixelifySans-Regular.woff2") format("woff2"),
+       url("../media/fonts/PixelifySans-Regular.woff") format("woff");
 }
    
 body {
