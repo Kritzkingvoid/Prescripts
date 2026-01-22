@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "Uhm.. Hello, are you here to Play? ~Sora",
         "Welcome back ~ R13n",
         "Testing.... Ahh wrong prescript. ~ Moirai",
-        ".............. ~ ....",
     ];
     const randomIndex = Math.floor(Math.random() * messages.length);
     const randomMessage = messages[randomIndex];
