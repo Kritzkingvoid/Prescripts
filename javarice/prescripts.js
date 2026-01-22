@@ -18,8 +18,8 @@ function createMessages() {
     // COMMON (early) //RANDOM BULLLSHITS
     { text: "HAVE ALL OF YOUR SINNERS TARGET AN ENEMY WITH THE LOWEST HEALTH", weight: 40, minCount: 0, amounts: 2 },
     { text: "SINNERS WITH THE HIGHEST SPEED, TARGET THE SLOWEST ENEMY SLOT", weight: 45, minCount: 0, amounts: 2 },
-    { text: "SINNERS WHO ROLLED EVEN-NUMBERED SPEED,CAN ONLY DEAL DAMAGE TO ODD-NUMBERED SLOTS", weight: 35, minCount: 0, amounts: 2 },
-    { text: "SINNERS WHO ROLLED ODD-NUMBERED SPEED,CANNOT DEAL DAMAGE TO EVEN-NUMBERED SLOTS", weight: 35, minCount: 0, amounts: 2 },
+    { text: "SINNERS WHO ROLLED EVEN-NUMBERED SPEED, CAN ONLY DEAL DAMAGE TO ODD-NUMBERED SLOTS", weight: 35, minCount: 0, amounts: 2 },
+    { text: "SINNERS WHO ROLLED ODD-NUMBERED SPEED, CANNOT DEAL DAMAGE TO EVEN-NUMBERED SLOTS", weight: 35, minCount: 0, amounts: 2 },
     { text: "DON'T LET A SINNER TAKE MORE THAN 20 DAMAGE THIS TURN", weight: 40, minCount: 0, amounts: 1 },
     { text: "HAVE YOUR FASTEST SINNERS CLASH WITH THE SLOWEST ENEMY SLOT", weight: 40, minCount: 0, amounts: 2 },
     { text: "HAVE ALL OF YOUR SINNERS TARGET A SINGLE SLOT", weight: 45, minCount: 0, amounts: 3 },
@@ -37,7 +37,7 @@ function createMessages() {
     { text: "DEAL AN OVERALL 100 DAMAGE THIS TURN", weight: 30, minCount: 2, amounts: 2 },
     { text: "USE AN E.G.O SKILL THIS TURN", weight: 10, minCount: 2, amounts: 5 },
     { text: "DON'T CLASH WITH ANY OF YOUR SINNERS", weight: 10, minCount: 2, amounts: 5 },
-    { text: "DONT'T KILL/STAGGER ANY ENEMIES THIS TURN", weight: 10, minCount: 2, amounts: 5 },
+    { text: "DON'T KILL/STAGGER ANY ENEMIES THIS TURN", weight: 10, minCount: 2, amounts: 5 },
     { text: "REPEAT THE LAST PRESCRIPT", weight: 20, minCount: 3, amounts: 5 },
     { text: "ATTACK WITH SINNERS WITH SPEED TOTALING NO GREATER THAN 14", weight: 20, minCount: 3, amounts: 5 },
     { text: "STAGGER, PART_BREAK, OR DEAL 500 DAMAGE TO AN ENEMY THIS TURN", weight: 10, minCount: 4, amounts: 5 },
@@ -54,7 +54,7 @@ function createMessages() {
     { text: "USE AN OVERCLOCK E.G.O THIS TURN AND HAVE THAT SINNER CORRODE THIS OR NEXT TURN", weight: 5, minCount: 6, amounts: 3 },
     { text: "DEAL AN OVERALL 300 DAMAGE THIS TURN", weight: 30, minCount: 5, amounts: 3 },
     { text: "HAVE NO MORE THAN 200 SANITY IN-TOTAL NEXT TURN", weight: 10, minCount: 7, amounts: 3 },
-    { text: "HAVE A TOTAL OF 20 STATUS EFFECT [BUFF/DEBUFFS] ON YOUR SINNERS NEXT TURN ", weight: 10, minCount: 7, amounts: 3 },
+    { text: "HAVE A TOTAL OF 20 STATUS EFFECTS [BUFF/DEBUFFS] ON YOUR SINNERS NEXT TURN ", weight: 10, minCount: 7, amounts: 3 },
 
     // VERY RARE / MEMES
     { text: "ACTIVATE AN EGO THAT WOULD DIRECTLY/INDIRECTLY KILL AN ALLY ", weight: 5, minCount: 8, amounts: 10 },
